@@ -1,0 +1,10 @@
+GET http://localhost:5000/api/dashboard
+
+###
+POST http://localhost:5000/api/login
+Content-Type: application/json
+
+{
+    "email":"59050001@cskmitl.ac.th",
+    "password":"1234"
+}
